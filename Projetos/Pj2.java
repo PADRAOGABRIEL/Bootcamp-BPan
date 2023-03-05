@@ -12,6 +12,7 @@ public class Pj2 {
      double[] array = new double[6];
 
         for (int i=0;i<=5;i++) {
+          System.out.println("Digite o " + (i+1) + "° numero: ");
         	array[i] = leitor.nextDouble();
         	if(array[i] > 0){
         	  cont++;
@@ -21,6 +22,7 @@ public class Pj2 {
         
         media = media/cont;
         System.out.println(cont + " valores positivos");
+        System.out.print("Média: ");
         System.out.println(String.format("%.1f", media));
     }
 }

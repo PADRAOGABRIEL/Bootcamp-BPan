@@ -6,8 +6,11 @@ public class Pj1{
 
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
+    System.out.println("Digite o custo da fábrica: ");
     int custoFabrica = scan.nextInt();
+      System.out.println("Digite a porcentagem do distribuidor: ");  
       int porcentagemDistribuidor = scan.nextInt();
+      System.out.println("Digite a porcentagem de impostos: ");
       int PercentualImpostos = scan.nextInt();
 
           int custoConsumidor;

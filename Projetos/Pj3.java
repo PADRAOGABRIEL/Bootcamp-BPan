@@ -9,6 +9,7 @@ public class Pj3 {
 
         double h=0;
         Scanner sc = new Scanner(System.in);
+        System.out.println("Entre com um número: ");
         double n = sc.nextDouble();
         double fraçao=0.00;
         

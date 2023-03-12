@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+/*criar um programa que verifica quantos espaços em branco e quantas vogais existem em uma determinada string  */
+
 public class Pj10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,7 +15,7 @@ public class Pj10 {
                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){
                  quantVogais++;
                }
-           }
+           }  
 
        System.out.println("Espacos em branco: " + espacosEmBranco + "   -->   Vogais: " + quantVogais);
 

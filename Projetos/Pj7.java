@@ -14,7 +14,7 @@ public class Pj7 {
         System.out.println("Entre com um valor: ");
 		double C = leitor.nextDouble();
 		double maior;
-		double soma;4
+		double soma;
 		double areaTriangulo;
 		
 		if (A > B && A > C){
